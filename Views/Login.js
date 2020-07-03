@@ -3,8 +3,8 @@ import React from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image } from 'react-native';
 import { loginUserWithApi } from '../Models/NajtazApi'
 
-const DEFAULT_EMAIL = ""
-const DEFAULT_PASSWORD = ""
+const DEFAULT_EMAIL = "jalal.bricha@actschool.ma"
+const DEFAULT_PASSWORD = "toto"
 
 class Login extends React.Component {
 

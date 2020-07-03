@@ -49,7 +49,7 @@ class AddNewGroupDayParticipations extends React.Component {
                 "nb_debates": 0,
                 "participant": participant._id,
                 "participantName": participant.name,
-                "participantAvatarUri": "http://sites.altcode.co/najtazapp/"
+                "participantAvatarUri": "http://sites.altcode.co/avatars/najtazapp/"
                     + participant.name + "resized.jpg"
                     + '?random_number=' + new Date().getTime()
                 // "participantAvatarUri": currentParticipant.avatar

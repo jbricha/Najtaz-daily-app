@@ -46,7 +46,7 @@ class UpdateGroupDayParticipations extends React.Component {
                 "nb_podcasts": dayStats.nb_videos_list ? dayStats.nb_podcast_list[index] : 0,
                 "participant": participantID,
                 "participantName": currentParticipant.name,
-                "participantAvatarUri": "http://sites.altcode.co/najtazapp/"
+                "participantAvatarUri": "http://sites.altcode.co/avatars/najtazapp/"
                     + currentParticipant.name + "resized.jpg"
                     + '?random_number=' + new Date().getTime()
                 // "participantAvatarUri": currentParticipant.avatar
